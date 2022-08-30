@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 .App {
-  color: black;
+  background-color: #ecf1fd;
   text-align: center;
   font-family: "Poppins", sans-serif !important;
 }
@@ -9,19 +9,33 @@
 .opening {
   height: 90vh;
   display: flex;
-  background-color: #61dafb;
+  background-color: #ecf1fd;
+  margin: auto;
 }
 
-.appbar ul {
+.appbar {
   display: flex;
-  list-style: none;
-  margin: 0px;
-  /* padding: 0 10px; */
+  padding: 0px 10%;
   height: 10vh;
-  background-color: aqua;
+  background-color: #ecf1fd;
   color: darkslategray;
 }
 
+.menuitems ul {
+  display: flex;
+  list-style: none;
+  font-size: larger;
+  font-weight: bold;
+  margin: auto;
+}
+
 li {
-  padding: 20px;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.introimage {
+  width: 500px;
+  height: 700px;
+  object-fit: cover;
 }

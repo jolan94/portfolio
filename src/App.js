@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Appbar from "./components/Appbar";
 import Opening from "./components/Opening";
 import { ThemeProvider } from "@material-ui/core/styles";
@@ -14,13 +14,11 @@ function App() {
   });
 
   return (
-    <Router>
-      <ThemeProvider theme={theme}>
-        <Appbar />
-        <Opening />
-        <Subtitle />
-      </ThemeProvider>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Appbar />
+      <Opening />
+      <Subtitle />
+    </ThemeProvider>
   );
 }
 
